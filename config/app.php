@@ -163,6 +163,11 @@ return [
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
 
+        /* Executar 'php artisan vendor:publish' 
+           Criar uma pasta 'Entities' para colocar os 'Models'
+        */
+        Prettus\Repository\Providers\RepositoryServiceProvider::class,
+
         /*
          * Package Service Providers...
          */
