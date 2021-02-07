@@ -167,6 +167,9 @@ return [
            Criar uma pasta 'Entities' para colocar os 'Models'
         */
         Prettus\Repository\Providers\RepositoryServiceProvider::class,
+        
+        /* Utilização do form do blade */
+        Collective\Html\HtmlServiceProvider::class,
 
         /*
          * Package Service Providers...
@@ -230,6 +233,10 @@ return [
         'URL' => Illuminate\Support\Facades\URL::class,
         'Validator' => Illuminate\Support\Facades\Validator::class,
         'View' => Illuminate\Support\Facades\View::class,
+
+        /* Utilização do form do blade */
+        'Form' => Collective\Html\FormFacade::class,
+        'Html' => Collective\Html\HtmlFacade::class,
 
     ],
 
