@@ -12,7 +12,11 @@
     <title>Login | Investindo</title>
 </head>
 <body>
+
+    {{-- Background --}}
+    <div class="background"></div>
     
+    {{-- Aba de login --}}
     <section id="conteudo-view" class="login">
 
         <h1>Investindo</h1>

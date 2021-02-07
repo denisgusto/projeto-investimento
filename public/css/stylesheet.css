@@ -22,6 +22,15 @@
  * ================================
  */
 
+div.background {
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: calc(100% - 300px);
+    background: url('../assets/images/bg-login.jpg');
+    background-size: cover;
+}
+
 section#conteudo-view {
   position: absolute;
   right: 0;
