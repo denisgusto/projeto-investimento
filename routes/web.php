@@ -21,6 +21,6 @@ Route::get('/', ['uses' => 'Controller@homepage']);
 */
 Route::get('/login', ['uses' => 'Controller@loginForm']);
 Route::post('/login', ['as' => 'user.login', 'uses' => 'DashboardController@login']);
-Route::post('/dashboard', ['as' => 'user.dashboard', 'uses' => 'DashboardController@index']);
+Route::get('/dashboard', ['as' => 'user.dashboard', 'uses' => 'DashboardController@index']);
 
 Route::get('/register', ['uses' => 'Controller@register']);
