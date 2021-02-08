@@ -20,7 +20,7 @@ class DatabaseSeeder extends Seeder
             'phone' => '32424243',
             'notes' => 'Anotação de seeds.',
             'email' => 'denis@seeds.com',
-            'password' => bcrypt('123456')
+            'password' => env('APP_PASSWORD_HASH') ? bcrypt('123456') : '123456'
         ]);
         // $this->call(UsersTableSeeder::class);
     }
