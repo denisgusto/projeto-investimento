@@ -1,3 +1,3 @@
 ## Painel de investimentos
 
-Projeto didático ministrado por Guilherme Aquino.
+Desenvolvimento de um Painel de Investimentos ministrado por Guilherme Aquino.
